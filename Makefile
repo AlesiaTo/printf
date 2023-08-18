@@ -1,5 +1,5 @@
 NAME = libftprintf.a
-SRC = ft_printf.c convertion.c convert_hexa.c convert_deca.c
+SRC = ft_printf.c conversion.c convert_hexa.c convert_deca.c
 OBJS = $(SRC:.c=.o)
 LIBFT_OBJS = libft/*.o
 CC = gcc
